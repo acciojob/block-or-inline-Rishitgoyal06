@@ -1,16 +1,60 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block or Inline</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div>
+        <button data-ns-test="block-inline-button">Button 1</button>
+        <button data-ns-test="block-inline-button">Button 2</button>
+        <!-- Answer: Inline -->
+    </div>
+    <div>
+        <div data-ns-test="block-inline-div">Div 1</div>
+        <div data-ns-test="block-inline-div">Div 2</div>
+        <!-- Answer: Block -->
+    </div>
+    <div>
+        <span data-ns-test="block-inline-span">Span 1</span>
+        <span data-ns-test="block-inline-span">Span 2</span>
+        <!-- Answer: Inline -->
+    </div>
+    <div>
+        <p data-ns-test="block-inline-p">Paragraph 1</p>
+        <p data-ns-test="block-inline-p">Paragraph 2</p>
+        <!-- Answer: Block -->
+    </div>
+    <div>
+        <input data-ns-test="block-inline-input" type="text" value="Input 1">
+        <input data-ns-test="block-inline-input" type="text" value="Input 2">
+        <!-- Answer: Inline -->
+    </div>
+    <div>
+        <cite data-ns-test="block-inline-cite">Cite 1</cite>
+        <cite data-ns-test="block-inline-cite">Cite 2</cite>
+        <!-- Answer: Inline -->
+    </div>
+    <div>
+        <code data-ns-test="block-inline-code">Code 1</code>
+        <code data-ns-test="block-inline-code">Code 2</code>
+        <!-- Answer: Inline -->
+    </div>
+    <div>
+        <h1 data-ns-test="block-inline-h1">Heading 1</h1>
+        <h1 data-ns-test="block-inline-h1">Heading 2</h1>
+        <!-- Answer: Block -->
+    </div>
+    <div>
+        <sup data-ns-test="block-inline-sup">Superscript 1</sup>
+        <sup data-ns-test="block-inline-sup">Superscript 2</sup>
+        <!-- Answer: Inline -->
+    </div>
+    <div>
+        <sub data-ns-test="block-inline-sub">Subscript 1</sub>
+        <sub data-ns-test="block-inline-sub">Subscript 2</sub>
+        <!-- Answer: Inline -->
+    </div>
 </body>
-
 </html>
